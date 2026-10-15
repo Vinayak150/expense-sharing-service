@@ -1,5 +1,13 @@
 # Expense Sharing Service
 
+![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
+[![CI](https://github.com/Vinayak150/expense-sharing-service/actions/workflows/ci.yml/badge.svg)](https://github.com/Vinayak150/expense-sharing-service/actions/workflows/ci.yml)
+
 A FastAPI + PostgreSQL backend for shared expenses, immutable allocations and exact balances.
 It supports equal or custom splits, smart settlement suggestions and idempotent recording of
 user-reported repayments. Python 3.12+, Pydantic v2, synchronous SQLAlchemy 2, Psycopg 3 and
